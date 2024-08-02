@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectAM</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/icone.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https:/ /fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Banner - Cabeçalho -->
+    <header>
+        <h1>ConectAM</h1>
+        <!-- Navegação -->
+        <nav>
+            <a href="#showcase">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <!-- Banner - Showcase -->
+    <section id="showcase">
+            <div class="introducao">
+                <div class="container">
+                    <h1>Valorize o local, celebre o global</h1>
+                    <p>A ConectAM promove a economia local e a preservação ambiental, trazendo a cultura amazônica para mais perto de você.</p>
+                    <button onclick="scrollToSection('servicos')">Saiba Mais</button>
+                </div>
+                <img src="/IHM/img/artesanato.jpeg" alt="artesanato">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+        <div class="container">
+            <div class="servico">
+                <h2>Serviço 1</h2>
+                <p>Descrição do serviço 1.</p>
+            </div>
+            <div class="servico">
+                <h2>Serviço 2</h2>
+                <p>Descrição do serviço 2.</p>
+            </div>
+            <div class="servico">
+                <h2>Serviço 3</h2>
+                <p>Descrição do serviço 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Paulo Henrique Maciel (substitua pelo seu nome). Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Função para rolar até uma seção específica
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
