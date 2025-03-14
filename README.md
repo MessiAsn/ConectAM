@@ -9,5 +9,3 @@ O **ConectAM** é um site que promove a cultura, os comerciantes e artesãos loc
 - **HTML**: Estrutura do site.
 - **CSS**: Estilização e design responsivo.
 - **JavaScript**: Interatividade e funcionalidades dinâmicas.
-
----
