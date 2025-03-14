@@ -1,9 +1,13 @@
-# ConectAM
+# ConectAM 🌿
 
-Este projeto consiste em um site chamado **ConectAM**, que promove a economia local e a preservação ambiental, trazendo a cultura amazônica mais próxima de você. O site oferece uma loja online de produtos regionais, artigos sobre a cultura amazônica e serviços de assinatura de produtos.
+O **ConectAM** é um site que promove a cultura, os comerciantes e artesãos locais do interior do Amazonas, além de incentivar o turismo na região. Com uma loja online de produtos artesanais, artigos sobre a cultura amazônica e dicas de turismo, o ConectAM conecta você às riquezas e belezas da Amazônia.
 
-## Como Usar
+---
 
-1. **Clone o repositório** ou faça o download do projeto.
-2. **Abra o arquivo `index.html`** em seu navegador para visualizar o site.
-3. **Adapte o código conforme necessário**, como links e imagens, para suas necessidades.
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML**: Estrutura do site.
+- **CSS**: Estilização e design responsivo.
+- **JavaScript**: Interatividade e funcionalidades dinâmicas.
+
+---
